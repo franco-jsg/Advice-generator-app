@@ -1,0 +1,36 @@
+.advice-container {
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $Dark-Grayish-Blue;
+    border-radius: $br-1;
+    padding: 3rem 3rem 6rem 3rem;
+    gap: $gap-advice;
+
+    h4{
+        font-size: $font-size-1;
+        color: $Neon-Green;
+        letter-spacing: $letter-spacing-1;
+
+    }
+
+    q, h1 {
+        min-height: 12rem;
+        font-size: $font-size-2;
+        font-weight: $font-weight-bold;   
+        color: $Light-Cyan;
+        text-align: center;
+        vertical-align:auto;     
+    }
+
+    img{
+        width: 100%;
+        content: url('../../img/pattern-divider-desktop.svg');
+
+        @media(max-width: $mobile) {
+            content: url('../../img/pattern-divider-mobile.svg');
+        };
+    }
+}

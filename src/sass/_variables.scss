@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@300;400;500&display=swap'); 
+
+//COLORS
+
+$Light-Cyan: hsl(193, 38%, 86%);
+$Neon-Green: hsl(150, 100%, 66%);
+
+$Grayish-Blue: hsl(217, 19%, 38%);
+$Dark-Grayish-Blue: hsl(217, 19%, 24%);
+$Dark-Blue: hsl(218, 23%, 16%);
+
+$White: hsl(0,0%,100%);
+
+//FONT
+
+$font: "Poppins", sans-serif;
+
+$font-weight-regular: 400; 
+$font-weight-bold: 700; 
+
+$letter-spacing-1: 0.3rem;
+
+//MEDIA QUERIES
+
+$mobile: 37.5rem;
+
+
+
+//FONT SIZE
+
+$font-size-1: 1.2rem;
+$font-size-2: 2.8rem;
+
+$font-size-mobile-1: 1.6rem;
+$font-size-mobile-2: 2.4rem;
+
+//GAP INFO
+
+$gap-advice: 3rem;
+
+//MARGINS
+
+$m-chart: 1.5rem;
+
+//PADDINGS
+
+$p-x-container: 2.5rem;
+$p-y-container: 1rem;
+
+//BORDER RADIUS
+
+$br-1: 1.5rem;
